@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleNotesProject", "Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesProject.Business", "..\NotesProject.Business\NotesProject.Business.csproj", "{B22AE496-2B61-4FCF-97B9-8A7BCD908B8B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A2CDA75-2AE1-48F1-837C-4919F760B994}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A767BC59-F300-462B-A1C7-EE184D18C12C} = {0A2CDA75-2AE1-48F1-837C-4919F760B994}
+		{B22AE496-2B61-4FCF-97B9-8A7BCD908B8B} = {0A2CDA75-2AE1-48F1-837C-4919F760B994}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8FB043DD-6351-44FE-9A2B-1E0DDC57F424}
